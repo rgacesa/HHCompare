@@ -23,11 +23,12 @@ for detected groups of clustered sequences; various tools can convert it into tr
 
 Dependencies: 
 - RBioTools.py : various bioinformatics functions; should be in same folder as code
-- HH-suite2.0, installed locally; make sure paths are set property when running
-    download at ftp://toolkit.genzentrum.lmu.de/pub/HH-suite/, follow appropriate instructions for install
-- ClustalW2, installed locally;make sure paths are set property when running
+- HH-suite2.0, installed locally;
+    - download at ftp://toolkit.genzentrum.lmu.de/pub/HH-suite/, follow appropriate instructions for install
+- ClustalW2, installed locally; 
     - download at ftp://ftp.ebi.ac.uk/pub/software/clustalw2/
 - python2.7
+- make sure paths to HH-suite and ClustalW2 are set appropriately (via --HHMAKE --HHALIGN and --CLUSTALW2 command line options)
 
 More notes: 
 - last update: 19/01/2015
